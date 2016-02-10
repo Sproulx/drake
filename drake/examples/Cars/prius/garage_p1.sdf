@@ -1,48 +1,48 @@
-<?xml version=“1.0” ?>
-<sdf version=“1.6”>
+<?xml version="1.0" ?>
+<sdf version="1.6">
 
 <model name="P1">
 
 
   <link name="outer_wall">
     <inertial>
-      <mass>17.8262</mass>
+      <mass>1</mass>
       <inertia>
-        <ixx>5.3996</ixx>
+        <ixx>100</ixx>
         <ixy>0</ixy>
         <ixz>0</ixz>
-        <iyy>2.5014</iyy>
+        <iyy>100</iyy>
         <iyz>0</iyz>
-        <izz>7.8838</izz>
+        <izz>100</izz>
       </inertia>
     </inertial>
-    <visual name=“1”>
+    <visual name="1">
       <pose>-1.332088 44.13956 1.524 0 0 0</pose>
       <geometry>
         <box>
           <size>.225778 79.78978 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name=“2”>
+<visual name="2">
       <pose>-1.648178 83.9216 1.524 0 0 0</pose>
       <geometry>
         <box>
           <size>.4064 .225778 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name=“3”>
+<visual name="3">
       <pose>-1.94169 93.06719 1.524 0 0 0</pose>
       <geometry>
         <box> <size>.180622 18.51378 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="4">
@@ -51,7 +51,7 @@
         <box><size>5.057422 .180622 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="5">
@@ -60,7 +60,7 @@
         <box><size>.180622 3.070578 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="6">
@@ -69,7 +69,7 @@
         <box><size>5.6896 .180622 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="7">
@@ -78,7 +78,7 @@
         <box><size>.225778 10.38578 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="8">
@@ -87,7 +87,7 @@
         <box><size>92.02861 .316088 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="9">
@@ -96,7 +96,7 @@
         <box><size>4.017256 .135466 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="10">
@@ -105,7 +105,7 @@
         <box><size>2.122312 .180622 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="11">
@@ -114,7 +114,7 @@
         <box><size>.633766 .587022 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="12">
@@ -123,7 +123,7 @@
         <box><size>.225778 4.109156 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="13">
@@ -132,7 +132,7 @@
         <box><size>71.07484 .180622 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="14">
@@ -141,7 +141,7 @@
         <box><size>.225778 4.064 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="15">
@@ -150,7 +150,7 @@
         <box><size>1.851378 .180622 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="16">
@@ -159,7 +159,7 @@
         <box><size>.588609 .903112 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="17">
@@ -168,7 +168,7 @@
         <box><size>3.904381 .17833 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="18">
@@ -177,7 +177,7 @@
         <box><size>.187107 53.5695 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="19">
@@ -186,7 +186,7 @@
         <box><size>.225778 59.6069 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="20">
@@ -195,7 +195,7 @@
         <box><size>3.475391 .22578 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="21">
@@ -204,7 +204,7 @@
         <box><size>3.421301 .22287 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="22">
@@ -213,7 +213,7 @@
         <box><size>.948266 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -253,97 +253,97 @@
         <box><size>5.6896 .180622 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“7”>
+<collision name="7">
       <pose>-1.3305 110.9472 1.524 0 0 0</pose>
       <geometry>
         <box><size>.225778 10.38578 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“8”>
+<collision name="8">
       <pose>-47.4577 115.982 1.524 0 0 0</pose>
       <geometry>
         <box><size>92.02861 .316088 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“9”>
+<collision name="9">
       <pose>-3.22862 4.176888 1.524 0 0 0</pose>
       <geometry>
         <box><size>4.017256 .135466 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“10”>
+<collision name="10">
       <pose>-6.92979 4.199466 1.524 0 0 0</pose>
       <geometry>
         <box><size>2.122312 .180622 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“11”>
+<collision name="11">
       <pose>-5.55347 4.402666 1.524 0 0 0</pose>
       <geometry>
         <box><size>.633766 .587022 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“12”>
+<collision name="12">
       <pose>-7.879644 2.05458 1.524 0 0 0</pose>
       <geometry>
         <box><size>.225778 4.109156 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“13”>
+<collision name="13">
       <pose>-43.3042 -.09031 1.524 0 0 0</pose>
       <geometry>
         <box><size>71.07484 .180622 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“14”>
+<collision name="14">
       <pose>-78.9561 2.032 1.524 0 0 0</pose>
       <geometry>
         <box><size>.225778 4.064 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“15”>
+<collision name="15">
       <pose>-79.7689 4.154322 1.524 0 0 0</pose>
       <geometry>
         <box><size>1.851378 .180622 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“16”>
+<collision name="16">
       <pose>-80.9865 4.425244 1.524 0 0 0</pose>
       <geometry>
         <box><size>.588609 .903112 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“17”>
+<collision name="17">
       <pose>-83.193 3.844359 1.524 0 0 .160621464</pose>
       <geometry>
         <box><size>3.904381 .17833 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“18”>
+<collision name="18">
       <pose>-89.3362 30.07934 1.524 0 0 .160951681</pose>
       <geometry>
         <box><size>.187107 53.5695 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“19”>
+<collision name="19">
       <pose>-93.58492 86.33901 1.524 0 0 0</pose>
       <geometry>
         <box><size>.225778 59.6069 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“20”>
+<collision name="20">
       <pose>-91.7351 56.42187 1.524 0 0 0</pose>
       <geometry>
         <box><size>3.475391 .22578 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“21”>
+<collision name="21">
       <pose>-91.6656 55.74328 1.524 0 0 0</pose>
       <geometry>
         <box><size>3.421301 .22287 3.048</size></box>
       </geometry>
     </collision>
-<collision name=“22”>
+<collision name="22">
       <pose>-89.5209 56.21708 1.524 0 0 0</pose>
       <geometry>
         <box><size>.948266 .63218 3.048</size></box>
@@ -353,14 +353,14 @@
   
   <link name="stairs">
     <inertial>    
-      <mass>17.8262</mass>
+      <mass>1</mass>
       <inertia>
-        <ixx>5.3996</ixx>
+        <ixx>100</ixx>
         <ixy>0</ixy>
         <ixz>0</ixz>
-        <iyy>2.5014</iyy>
+        <iyy>100</iyy>
         <iyz>0</iyz>
-        <izz>7.8838</izz>
+        <izz>100</izz>
       </inertia>
     </inertial>
     <visual name="23">
@@ -369,7 +369,7 @@
         <box><size>5.508978 2.8448 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="24">
@@ -378,7 +378,7 @@
         <box><size>1.6256 2.61902 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="25">
@@ -387,7 +387,7 @@
         <box><size>3.394271 3.8573 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="26">
@@ -396,7 +396,7 @@
         <box><size>4.380088 3.20604 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="27">
@@ -405,7 +405,7 @@
         <box><size>4.850808 3.5175 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="28">
@@ -414,7 +414,7 @@
         <box><size>2.8448 6.68302 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="29">
@@ -423,7 +423,7 @@
         <box><size>.180622 9.07627 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="30">
@@ -432,7 +432,7 @@
         <box><size>.316088 10.7288 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="31">
@@ -441,7 +441,7 @@
         <box><size>7.945656 .43238 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="32">
@@ -450,7 +450,7 @@
         <box><size>7.936766 .50714 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="33">
@@ -459,7 +459,7 @@
         <box><size>6.592712 3.16089 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="34">
@@ -468,7 +468,7 @@
         <box><size>.632178 .31609 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="35">
@@ -477,7 +477,7 @@
         <box><size>5.012266 3.07058 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="36">
@@ -486,7 +486,7 @@
         <box><size>60.82453 3.6576 .127</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="37">
@@ -495,7 +495,7 @@
         <box><size>.995009 2.4384 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="38">
@@ -504,7 +504,7 @@
         <box><size>.903112 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="39">
@@ -513,7 +513,7 @@
         <box><size>.903112 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="40">
@@ -522,7 +522,7 @@
         <box><size>1.220788 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="41">
@@ -531,7 +531,7 @@
         <box><size>.633766 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="42">
@@ -540,7 +540,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="43">
@@ -549,7 +549,7 @@
         <box><size>.587022 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="44">
@@ -558,7 +558,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="45">
@@ -567,7 +567,7 @@
         <box><size>.587022 .63377 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="46">
@@ -576,7 +576,7 @@
         <box><size>.588609 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="47">
@@ -585,7 +585,7 @@
         <box><size>.903112 .6322 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="48">
@@ -594,7 +594,7 @@
         <box><size>.9047 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="49">
@@ -603,7 +603,7 @@
         <box><size>.903112 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="50">
@@ -612,7 +612,7 @@
         <box><size>.632178 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="51">
@@ -621,7 +621,7 @@
         <box><size>.903112 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="52">
@@ -630,7 +630,7 @@
         <box><size>.903112 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="53">
@@ -639,7 +639,7 @@
         <box><size>.903112 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="54">
@@ -648,7 +648,7 @@
         <box><size>.903112 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="55">
@@ -657,7 +657,7 @@
         <box><size>.903112 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="56">
@@ -666,7 +666,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="57">
@@ -675,7 +675,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="58">
@@ -684,7 +684,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="59">
@@ -693,7 +693,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -703,7 +703,7 @@
         <box><size>.58702 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="61">
@@ -712,7 +712,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="62">
@@ -721,7 +721,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="63">
@@ -730,7 +730,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="64">
@@ -739,7 +739,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="65">
@@ -748,89 +748,89 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="66”>
+<visual name="66">
       <pose>-13.9305 38.85636 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="67”>
+<visual name="67">
       <pose>-13.9305 30.32196 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="68”>
+<visual name="68">
       <pose>-13.9305 21.78756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="69”>
+<visual name="69">
       <pose>-13.9305 13.25316 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name=“70”>
+<visual name="70">
       <pose>-13.9305 4.402666 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
-<visual name="71”>
+<visual name="71">
       <pose>-22.3068 91.57547 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="72”>
+<visual name="72">
       <pose>-22.3068 82.74756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="73”>
+<visual name="73">
       <pose>-22.3068 73.89707 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="73a”>
+<visual name="73a">
       <pose>-22.3068 65.06916 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="74">
@@ -839,7 +839,7 @@
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="75">
@@ -848,7 +848,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="76">
@@ -857,7 +857,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="77">
@@ -866,7 +866,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="78">
@@ -875,7 +875,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="79">
@@ -884,7 +884,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="80">
@@ -893,7 +893,7 @@
         <box><size>.632178 .64911 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -903,7 +903,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="82">
@@ -912,7 +912,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="83">
@@ -921,25 +921,25 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name=“84”>
+<visual name="84">
       <pose>-30.6832 47.39076 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
-<visual name="85”>
+<visual name="85">
       <pose>-30.6832 38.85636 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="86">
@@ -948,7 +948,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="87">
@@ -957,7 +957,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="88">
@@ -966,7 +966,7 @@
         <box><size>.58702 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -976,7 +976,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="90">
@@ -985,7 +985,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="91">
@@ -994,7 +994,7 @@
         <box><size>.58702 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="92">
@@ -1003,7 +1003,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="93">
@@ -1012,7 +1012,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="94">
@@ -1021,7 +1021,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="95">
@@ -1030,7 +1030,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="96">
@@ -1039,7 +1039,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="97">
@@ -1048,7 +1048,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="98">
@@ -1057,7 +1057,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="99">
@@ -1066,7 +1066,7 @@
         <box><size>.58702 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1076,7 +1076,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="101">
@@ -1085,7 +1085,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="102">
@@ -1094,7 +1094,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="103">
@@ -1103,7 +1103,7 @@
         <box><size>.632178 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="104">
@@ -1112,7 +1112,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="105">
@@ -1121,7 +1121,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="106">
@@ -1130,7 +1130,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="107">
@@ -1139,7 +1139,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="108">
@@ -1148,7 +1148,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="109">
@@ -1157,7 +1157,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="110">
@@ -1166,7 +1166,7 @@
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1176,7 +1176,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="112">
@@ -1185,7 +1185,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="113">
@@ -1194,7 +1194,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="114">
@@ -1203,7 +1203,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="115">
@@ -1212,7 +1212,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="116">
@@ -1221,7 +1221,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="117">
@@ -1230,7 +1230,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="118">
@@ -1239,7 +1239,7 @@
         <box><size>.58702 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="119">
@@ -1248,7 +1248,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="120">
@@ -1257,7 +1257,7 @@
         <box><size>.58702 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="121">
@@ -1266,7 +1266,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1276,7 +1276,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="123">
@@ -1285,7 +1285,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="124">
@@ -1294,7 +1294,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="125">
@@ -1303,7 +1303,7 @@
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="126">
@@ -1312,7 +1312,7 @@
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="127">
@@ -1321,7 +1321,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="128">
@@ -1330,7 +1330,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="129">
@@ -1339,7 +1339,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="130">
@@ -1348,7 +1348,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="131">
@@ -1357,7 +1357,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="132">
@@ -1366,7 +1366,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1376,7 +1376,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="134">
@@ -1385,7 +1385,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="135">
@@ -1394,7 +1394,7 @@
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="136">
@@ -1403,7 +1403,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="137">
@@ -1412,7 +1412,7 @@
         <box><size>.632178 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="138">
@@ -1421,7 +1421,7 @@
         <box><size>.632178 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="139">
@@ -1430,7 +1430,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="140">
@@ -1439,7 +1439,7 @@
         <box><size>.632178 .94827 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="141">
@@ -1448,7 +1448,7 @@
         <box><size>.632178 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1458,7 +1458,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="143">
@@ -1467,7 +1467,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="144">
@@ -1476,7 +1476,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="145">
@@ -1485,7 +1485,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1495,7 +1495,7 @@
         <box><size>1.2192 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="147">
@@ -1504,7 +1504,7 @@
         <box><size>.90311 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="148">
@@ -1513,7 +1513,7 @@
         <box><size>.90311 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="149">
@@ -1522,7 +1522,7 @@
         <box><size>.58702 1.2192 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1532,7 +1532,7 @@
         <box><size>1.2192 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="151">
@@ -1541,7 +1541,7 @@
         <box><size>1.2192 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="152">
@@ -1550,7 +1550,7 @@
         <box><size>1.2912 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="153">
@@ -1559,7 +1559,7 @@
         <box><size>.90311 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="154">
@@ -1568,7 +1568,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1578,7 +1578,7 @@
         <box><size>.58702 1.2912 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="156">
@@ -1587,7 +1587,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="157">
@@ -1596,7 +1596,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="158">
@@ -1605,7 +1605,7 @@
         <box><size>.58702 .90311 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="159">
@@ -1614,7 +1614,7 @@
         <box><size>.90311 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="160">
@@ -1623,7 +1623,7 @@
         <box><size>.63218 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="161">
@@ -1632,7 +1632,7 @@
         <box><size>.903112 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="162">
@@ -1641,7 +1641,7 @@
         <box><size>.58702 .63218 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="163">
@@ -1650,7 +1650,7 @@
         <box><size>1.2192 .60579 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1660,7 +1660,7 @@
         <box><size>.63218 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="165">
@@ -1669,7 +1669,7 @@
         <box><size>.94827 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="166">
@@ -1678,7 +1678,7 @@
         <box><size>.63218 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="167">
@@ -1687,7 +1687,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="168">
@@ -1696,7 +1696,7 @@
         <box><size>.903112 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="169">
@@ -1705,7 +1705,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 <visual name="170">
@@ -1714,7 +1714,7 @@
         <box><size>.58702 .58702 3.048</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>216 216 216 1</diffuse>
       </material>
     </visual>
 
@@ -1952,7 +1952,7 @@
         
       </material>
     </collision>
-<collision name="49”>
+<collision name="49">
       <pose>-6.45724 100.426 1.524 0 0 0</pose>
       <geometry>
         <box><size>.903112 .63218 3.048</size></box>
@@ -2588,7 +2588,7 @@
         
       </material>
     </collision>
-<collision name="119”>
+<collision name="119">
       <pose>-55.8348 30.32196 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .90311 3.048</size></box>
@@ -2597,7 +2597,7 @@
         
       </material>
     </collision>
-<collision name="120”>
+<collision name="120">
       <pose>-55.8348 21.78756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -2606,7 +2606,7 @@
         
       </material>
     </collision>
-<collision name="121”>
+<collision name="121">
       <pose>-55.8348 13.25316 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .94827 3.048</size></box>
@@ -2615,7 +2615,7 @@
         
       </material>
     </collision>
-<collision name="122”>
+<collision name="122">
       <pose>-55.8348 4.402666 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 1.2192 3.048</size></box>
@@ -2625,7 +2625,7 @@
       </material>
     </collision>
 
-<collision name="123”>
+<collision name="123">
       <pose>-64.2112 91.57547 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2634,7 +2634,7 @@
         
       </material>
     </collision>
-<collision name="124”>
+<collision name="124">
       <pose>-64.2112 82.74756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2643,7 +2643,7 @@
         
       </material>
     </collision>
-<collision name="125”>
+<collision name="125">
       <pose>-64.2112 73.89707 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .58702 3.048</size></box>
@@ -2652,7 +2652,7 @@
         
       </material>
     </collision>
-<collision name="126”>
+<collision name="126">
       <pose>-64.2112 65.06916 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .90311 3.048</size></box>
@@ -2661,7 +2661,7 @@
         
       </material>
     </collision>
-<collision name="127”>
+<collision name="127">
       <pose>-64.2112 56.21867 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .90311 3.048</size></box>
@@ -2670,7 +2670,7 @@
         
       </material>
     </collision>
-<collision name="128”>
+<collision name="128">
       <pose>-64.2112 47.39076 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .58702 3.048</size></box>
@@ -2679,7 +2679,7 @@
         
       </material>
     </collision>
-<collision name="129”>
+<collision name="129">
       <pose>-64.2112 38.85636 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2688,7 +2688,7 @@
         
       </material>
     </collision>
-<collision name="130”>
+<collision name="130">
       <pose>-64.2112 30.32196 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2697,7 +2697,7 @@
         
       </material>
     </collision>
-<collision name="131”>
+<collision name="131">
       <pose>-64.2112 21.78756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2706,7 +2706,7 @@
         
       </material>
     </collision>
-<collision name="132”>
+<collision name="132">
       <pose>-64.2112 13.25316 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .94827 3.048</size></box>
@@ -2715,7 +2715,7 @@
         
       </material>
     </collision>
-<collision name="133”>
+<collision name="133">
       <pose>-64.2112 4.402666 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2725,7 +2725,7 @@
       </material>
     </collision>
 
-<collision name="134”>
+<collision name="134">
       <pose>-72.6101 91.57547 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2734,7 +2734,7 @@
         
       </material>
     </collision>
-<collision name="135”>
+<collision name="135">
       <pose>-72.6101 82.74756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2743,7 +2743,7 @@
         
       </material>
     </collision>
-<collision name="136”>
+<collision name="136">
       <pose>-72.6101 73.89707 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .90311 3.048</size></box>
@@ -2752,7 +2752,7 @@
         
       </material>
     </collision>
-<collision name="137”>
+<collision name="137">
       <pose>-72.6101 65.06916 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2761,7 +2761,7 @@
         
       </material>
     </collision>
-<collision name="138”>
+<collision name="138">
       <pose>-72.6101 56.21867 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .90311 3.048</size></box>
@@ -2770,7 +2770,7 @@
         
       </material>
     </collision>
-<collision name="139”>
+<collision name="139">
       <pose>-72.6101 47.39076 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .58702 3.048</size></box>
@@ -2779,7 +2779,7 @@
         
       </material>
     </collision>
-<collision name="140”>
+<collision name="140">
       <pose>-72.6101 38.85636 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2788,7 +2788,7 @@
         
       </material>
     </collision>
-<collision name="141”>
+<collision name="141">
       <pose>-72.6101 30.32196 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 .94827 3.048</size></box>
@@ -2797,7 +2797,7 @@
         
       </material>
     </collision>
-<collision name="142”>
+<collision name="142">
       <pose>-72.6101 4.402666 1.524 0 0 0</pose>
       <geometry>
         <box><size>.632178 1.2192 3.048</size></box>
@@ -2807,7 +2807,7 @@
       </material>
     </collision>
 
-<collision name="143”>
+<collision name="143">
       <pose>-80.9865 91.57547 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 1.2192 3.048</size></box>
@@ -2816,7 +2816,7 @@
         
       </material>
     </collision>
-<collision name="144”>
+<collision name="144">
       <pose>-80.9865 82.74756 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 1.2192 3.048</size></box>
@@ -2825,7 +2825,7 @@
         
       </material>
     </collision>
-<collision name="145”>
+<collision name="145">
       <pose>-80.9865 73.89707 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 1.2192 3.048</size></box>
@@ -2834,7 +2834,7 @@
         
       </material>
     </collision>
-<collision name="146”>
+<collision name="146">
       <pose>-80.9865 65.06916 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 1.2192 3.048</size></box>
@@ -2844,7 +2844,7 @@
       </material>
     </collision>
 
-<collision name="147”>
+<collision name="147">
       <pose>-89.3854 82.74756 1.524 0 0 0</pose>
       <geometry>
         <box><size>1.2192 .58702 3.048</size></box>
@@ -2853,7 +2853,7 @@
         
       </material>
     </collision>
-<collision name="148”>
+<collision name="148">
       <pose>-89.3628 73.89707 1.524 0 0 0</pose>
       <geometry>
         <box><size>.90311 .58702 3.048</size></box>
@@ -2862,7 +2862,7 @@
         
       </material>
     </collision>
-<collision name="149”>
+<collision name="149">
       <pose>-89.3628 65.06916 1.524 0 0 0</pose>
       <geometry>
         <box><size>.90311 .63218 3.048</size></box>
@@ -2871,7 +2871,7 @@
         
       </material>
     </collision>
-<collision name="150”>
+<collision name="150">
       <pose>-73.31 13.25316 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 1.2192 3.048</size></box>
@@ -2881,7 +2881,7 @@
       </material>
     </collision>
 
-<collision name="151”>
+<collision name="151">
       <pose>-82.4315 13.23508 1.524 0 0 0.189988286964</pose>
       <geometry>
         <box><size>1.2192 .58702 3.048</size></box>
@@ -2890,7 +2890,7 @@
         
       </material>
     </collision>
-<collision name="152”>
+<collision name="152">
       <pose>-83.8087 21.76498 1.524 0 0 0.189988286964</pose>
       <geometry>
         <box><size>1.2192 .58702 3.048</size></box>
@@ -2899,7 +2899,7 @@
         
       </material>
     </collision>
-<collision name="153”>
+<collision name="153">
       <pose>-85.186 30.29938 1.524 0 0 0.189988286964</pose>
       <geometry>
         <box><size>1.2912 .58702 3.048</size></box>
@@ -2908,7 +2908,7 @@
         
       </material>
     </collision>
-<collision name="154”>
+<collision name="154">
       <pose>-86.5632 38.83378 1.524 0 0 0.189988286964</pose>
       <geometry>
         <box><size>.90311 .58702 3.048</size></box>
@@ -2917,7 +2917,7 @@
         
       </material>
     </collision>
-<collision name="155”>
+<collision name="155">
       <pose>-87.963 47.36818 1.524 0 0 0.189988286964</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -2927,7 +2927,7 @@
       </material>
     </collision>
 
-<collision name="156”>
+<collision name="156">
       <pose>-76.4484 30.29938 1.524 0 0 0.15264932381</pose>
       <geometry>
         <box><size>.58702 1.2912 3.048</size></box>
@@ -2936,7 +2936,7 @@
         
       </material>
     </collision>
-<collision name="157”>
+<collision name="157">
       <pose>-77.8256 38.83378 1.524 0 0 0.15264932381</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -2945,7 +2945,7 @@
         
       </material>
     </collision>
-<collision name="158”>
+<collision name="158">
       <pose>-79.2028 47.36818 1.524 0 0 0.15264932381</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -2954,7 +2954,7 @@
         
       </material>
     </collision>
-<collision name="159”>
+<collision name="159">
       <pose>-80.6027 56.0832 1.524 0 0 0.15264932381</pose>
       <geometry>
         <box><size>.58702 .90311 3.048</size></box>
@@ -2963,7 +2963,7 @@
         
       </material>
     </collision>
-<collision name="160”>
+<collision name="160">
       <pose>-78.39 107.5154 1.524 0 0 0</pose>
       <geometry>
         <box><size>.90311 .63218 3.048</size></box>
@@ -2972,7 +2972,7 @@
         
       </material>
     </collision>
-<collision name="161”>
+<collision name="161">
      <pose>-16.5269 107.5154 1.524 0 0 0</pose>
       <geometry>
         <box><size>.63218 .63218 3.048</size></box>
@@ -2981,7 +2981,7 @@
         
       </material>
     </collision>
-<collision name="162”>
+<collision name="162">
       <pose>-6.40644 108.3508 1.524 0 0 0</pose>
       <geometry>
         <box><size>.903112 .58702 3.048</size></box>
@@ -2990,7 +2990,7 @@
         
       </material>
     </collision>
-<collision name="163”>
+<collision name="163">
       <pose>-35.4245 106.1635 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .63218 3.048</size></box>
@@ -2999,7 +2999,7 @@
         
       </material>
     </collision>
-<collision name="164”>
+<collision name="164">
       <pose>-77.5547 105.0318 1.524 0 0 0.463647623362</pose>
       <geometry>
         <box><size>1.2192 .60579 3.048</size></box>
@@ -3009,7 +3009,7 @@
       </material>
     </collision>
 
-<collision name="165”>
+<collision name="165">
       <pose>-72.6101 107.8992 1.524 0 0 0</pose>
       <geometry>
         <box><size>.63218 .58702 3.048</size></box>
@@ -3018,7 +3018,7 @@
         
       </material>
     </collision>
-<collision name="166”>
+<collision name="166">
       <pose>-66.8076 107.8992 1.524 0 0 0</pose>
       <geometry>
         <box><size>.94827 .58702 3.048</size></box>
@@ -3027,7 +3027,7 @@
         
       </material>
     </collision>
-<collision name="167”>
+<collision name="167">
       <pose>-64.2112 107.8992 1.524 0 0 0</pose>
       <geometry>
         <box><size>.63218 .58702 3.048</size></box>
@@ -3036,7 +3036,7 @@
         
       </material>
     </collision>
-<collision name="168”>
+<collision name="168">
       <pose>-55.8348 107.8992 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -3044,7 +3044,7 @@
       <material>        
       </material>
     </collision>
-<collision name="169”>
+<collision name="169">
       <pose>-47.4585 107.8992 1.524 0 0 0</pose>
       <geometry>
         <box><size>.903112 .58702 3.048</size></box>
@@ -3052,7 +3052,7 @@
       <material>       
       </material>
     </collision>
-<collision name="170”>
+<collision name="170">
       <pose>-39.08213 107.8992 1.524 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -3060,7 +3060,7 @@
       <material>
       </material>
     </collision>
-<collision name="171”>
+<collision name="171">
       <pose>-30.6832 107.8992 1.5240 0 0 0</pose>
       <geometry>
         <box><size>.58702 .58702 3.048</size></box>
@@ -3072,14 +3072,14 @@
 
  <link name="ground">
     <inertial>
-      <mass>17.8262</mass>
+      <mass>1</mass>
       <inertia>
-        <ixx>5.3996</ixx>
+        <ixx>10</ixx>
         <ixy>0</ixy>
         <ixz>0</ixz>
-        <iyy>2.5014</iyy>
+        <iyy>10</iyy>
         <iyz>0</iyz>
-        <izz>7.8838</izz>
+        <izz>10</izz>
       </inertia>
     </inertial>
     <visual name="171">
@@ -3088,10 +3088,32 @@
         <box><size>92.47858 116.321 .0508</size></box>
       </geometry>
       <material>
-        <diffuse>0 1 1 1</diffuse>
+        <diffuse>88 88 88 1</diffuse>
       </material>
-    </visual>
-</link>
+   </visual>
+   <collision name="172">
+      <pose>-47.4585 57.97973 -.0254 0 0 0</pose>
+      <geometry>
+        <box><size>92.47858 116.321 .0508</size></box>
+      </geometry>
+      <material>  
+      </material>
+    </collision>
+  </link>
+  
+  <joint name="walls_ground" type="fixed">
+   <parent>ground</parent>
+   <child>outer_wall</child>
+   <pose>0 0 0 0 0 0</pose>
+   <axis><xyz>0 0 1</xyz></axis> 
+  </joint>
+  
+  <joint name="stairs_ground" type="fixed">
+   <parent>stairs</parent>
+   <child>outer_wall</child>
+   <pose>0 0 0 0 0 0</pose>
+   <axis><xyz>0 0 1</xyz></axis> 
+   </joint>
 
 </model>
 </sdf>
